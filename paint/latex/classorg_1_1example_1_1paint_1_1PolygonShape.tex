@@ -1,0 +1,176 @@
+\doxysection{org.\+example.\+paint.\+Polygon\+Shape Class Reference}
+\hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape}{}\label{classorg_1_1example_1_1paint_1_1PolygonShape}\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+Inheritance diagram for org.\+example.\+paint.\+Polygon\+Shape\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1example_1_1paint_1_1PolygonShape}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a964d76af97427aaf58c37aa9c9885642}{draw}} (Graphics\+Context surface)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a5d18527ca87c2d54cc455e42ab6dc401}{rotate}} (double ox, double oy, double x, double y)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_aa58a7a771c743cb06c9c858cde891c7d}{move}} (double dx, double dy)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a1631d23d956a3b825b39d69cc53314c7}{contains}} (double x, double y)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_aee676de188881f5e19b4aa969adc1551}{set\+Colour}} (Color colour)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a77028dc0b3d6ce8fb5dd977f767ce41e}{upscale}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a2d503fa41fb579d5d37325e8cccd28ef}{downscale}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a3713d1febebe29d0563283ec7451aefc}{Rectangle}} (Pair$<$ Double, Double $>$ origin, Pair$<$ Double, Double $>$ size, Color colour)
+\item 
+static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a65e5f7219bc7711f2cfc291d20688b6e}{Triangle}} (Pair$<$ Double, Double $>$ origin, Pair$<$ Double, Double $>$ size, Color colour)
+\item 
+static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape_a31c12aa7160f65c4d965bf1bd88bf0ee}{Oval}} (Pair$<$ Double, Double $>$ origin, Pair$<$ Double, Double $>$ size, Color colour)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a1631d23d956a3b825b39d69cc53314c7}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a1631d23d956a3b825b39d69cc53314c7} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!contains@{contains}}
+\index{contains@{contains}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean org.\+example.\+paint.\+Polygon\+Shape.\+contains (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+determines whether the (x,y) point is inside the shape 
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a2d503fa41fb579d5d37325e8cccd28ef}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a2d503fa41fb579d5d37325e8cccd28ef} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!downscale@{downscale}}
+\index{downscale@{downscale}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{downscale()}{downscale()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+downscale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+downscale the shape by predetermined factor \Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a964d76af97427aaf58c37aa9c9885642}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a964d76af97427aaf58c37aa9c9885642} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!draw@{draw}}
+\index{draw@{draw}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+draw (\begin{DoxyParamCaption}\item[{Graphics\+Context}]{surface }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+draws the shape on a Graphics\+Context 
+\begin{DoxyParams}{Parameters}
+{\em surface} & where to draw the sahape \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_aa58a7a771c743cb06c9c858cde891c7d}\label{classorg_1_1example_1_1paint_1_1PolygonShape_aa58a7a771c743cb06c9c858cde891c7d} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!move@{move}}
+\index{move@{move}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+move (\begin{DoxyParamCaption}\item[{double}]{dx,  }\item[{double}]{dy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+move the shape by given value 
+\begin{DoxyParams}{Parameters}
+{\em dx} & horizontal offset \\
+\hline
+{\em dy} & vertical offset \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a31c12aa7160f65c4d965bf1bd88bf0ee}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a31c12aa7160f65c4d965bf1bd88bf0ee} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!Oval@{Oval}}
+\index{Oval@{Oval}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{Oval()}{Oval()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} org.\+example.\+paint.\+Polygon\+Shape.\+Oval (\begin{DoxyParamCaption}\item[{Pair$<$ Double, Double $>$}]{origin,  }\item[{Pair$<$ Double, Double $>$}]{size,  }\item[{Color}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+creates a new oval 
+\begin{DoxyParams}{Parameters}
+{\em origin} & vector2d of the start drag point \\
+\hline
+{\em size} & vector2d of the size of the shape (can be negative) \\
+\hline
+{\em colour} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+desired shape 
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a3713d1febebe29d0563283ec7451aefc}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a3713d1febebe29d0563283ec7451aefc} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} org.\+example.\+paint.\+Polygon\+Shape.\+Rectangle (\begin{DoxyParamCaption}\item[{Pair$<$ Double, Double $>$}]{origin,  }\item[{Pair$<$ Double, Double $>$}]{size,  }\item[{Color}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+creates a new rectangle 
+\begin{DoxyParams}{Parameters}
+{\em origin} & vector2d of the start drag point \\
+\hline
+{\em size} & vector2d of the size of the shape (can be negative) \\
+\hline
+{\em colour} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+desired shape 
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a5d18527ca87c2d54cc455e42ab6dc401}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a5d18527ca87c2d54cc455e42ab6dc401} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!rotate@{rotate}}
+\index{rotate@{rotate}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+rotate (\begin{DoxyParamCaption}\item[{double}]{ox,  }\item[{double}]{oy,  }\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+determine the desired rotation by original and current mouse position 
+\begin{DoxyParams}{Parameters}
+{\em ox} & coordinate of begin drag point \\
+\hline
+{\em oy} & coordinate of begin drag point \\
+\hline
+{\em x} & coordinate of current mouse position \\
+\hline
+{\em y} & coordinate of current mouse position \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_aee676de188881f5e19b4aa969adc1551}\label{classorg_1_1example_1_1paint_1_1PolygonShape_aee676de188881f5e19b4aa969adc1551} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!setColour@{setColour}}
+\index{setColour@{setColour}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{setColour()}{setColour()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+set\+Colour (\begin{DoxyParamCaption}\item[{Color}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+self-\/explanatory 
+\begin{DoxyParams}{Parameters}
+{\em colour} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a65e5f7219bc7711f2cfc291d20688b6e}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a65e5f7219bc7711f2cfc291d20688b6e} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{Triangle()}{Triangle()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} org.\+example.\+paint.\+Polygon\+Shape.\+Triangle (\begin{DoxyParamCaption}\item[{Pair$<$ Double, Double $>$}]{origin,  }\item[{Pair$<$ Double, Double $>$}]{size,  }\item[{Color}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+creates a new triangle 
+\begin{DoxyParams}{Parameters}
+{\em origin} & vector2d of the start drag point \\
+\hline
+{\em size} & vector2d of the size of the shape (can be negative) \\
+\hline
+{\em colour} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+desired shape 
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1PolygonShape_a77028dc0b3d6ce8fb5dd977f767ce41e}\label{classorg_1_1example_1_1paint_1_1PolygonShape_a77028dc0b3d6ce8fb5dd977f767ce41e} 
+\index{org.example.paint.PolygonShape@{org.example.paint.PolygonShape}!upscale@{upscale}}
+\index{upscale@{upscale}!org.example.paint.PolygonShape@{org.example.paint.PolygonShape}}
+\doxysubsubsection{\texorpdfstring{upscale()}{upscale()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Polygon\+Shape.\+upscale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+upscale the shape by predetermined factor 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/example/paint/Polygon\+Shape.\+java\end{DoxyCompactItemize}

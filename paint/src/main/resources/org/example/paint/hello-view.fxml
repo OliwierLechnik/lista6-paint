@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.paint.EventController">
+   <children>
+      <AnchorPane>
+         <children>
+            <BorderPane>
+               <top>
+                  <MenuBar blendMode="MULTIPLY">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#save" text="save" />
+                              <MenuItem mnemonicParsing="false" onAction="#load" text="load" />
+                          <MenuItem mnemonicParsing="false" onAction="#info" text="info" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Tools">
+                          <items>
+                              <MenuItem mnemonicParsing="false" onAction="#setEdit" text="Select" />
+                            <MenuItem mnemonicParsing="false" onAction="#setTriangle" text="Triangle" />
+                              <MenuItem mnemonicParsing="false" onAction="#setRectangle" text="Rectangle" />
+                              <MenuItem mnemonicParsing="false" onAction="#setOval" text="Oval" />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+               </top>
+               <center>
+                  <Canvas fx:id="surface" height="550.0" onMouseClicked="#onRClick" onMouseDragged="#onDrag" onMousePressed="#onDragBegin" onMouseReleased="#onDragEnd" onScroll="#onScroll" width="900.0" />
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

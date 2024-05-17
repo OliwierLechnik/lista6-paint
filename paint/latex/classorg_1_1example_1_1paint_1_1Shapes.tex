@@ -1,0 +1,116 @@
+\doxysection{org.\+example.\+paint.\+Shapes Class Reference}
+\hypertarget{classorg_1_1example_1_1paint_1_1Shapes}{}\label{classorg_1_1example_1_1paint_1_1Shapes}\index{org.example.paint.Shapes@{org.example.paint.Shapes}}
+Inheritance diagram for org.\+example.\+paint.\+Shapes\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1example_1_1paint_1_1Shapes}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_a82fd2234665959d4086fefd57d793c67}{add}} (\mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} shape)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_a6548a80af00885b420de697f18e96775}{save}} (File file)  throws IOException 
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_a0c4ead03f7f13869855a77f5dd7e5a5e}{load}} (File file)  throws IOException 
+\item 
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_afeadb950009a7ff53c14c09e097758b3}\label{classorg_1_1example_1_1paint_1_1Shapes_afeadb950009a7ff53c14c09e097758b3} 
+int {\bfseries get\+Size} ()
+\item 
+\mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_a981f3af1c62ed2e0c4f57ac6bd85a447}{get}} (int idx)
+\item 
+void \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_a85af78c2946f6f524a27b31c4a87ce8e}{set}} (int idx, \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} shape)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes}{Shapes}} \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes_adfb157edbbf55e8ee4f45ea6e328168b}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_a82fd2234665959d4086fefd57d793c67}\label{classorg_1_1example_1_1paint_1_1Shapes_a82fd2234665959d4086fefd57d793c67} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!add@{add}}
+\index{add@{add}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Shapes.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}}}]{shape }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+append given shape to the end of the list 
+\begin{DoxyParams}{Parameters}
+{\em shape} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_a981f3af1c62ed2e0c4f57ac6bd85a447}\label{classorg_1_1example_1_1paint_1_1Shapes_a981f3af1c62ed2e0c4f57ac6bd85a447} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!get@{get}}
+\index{get@{get}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}} org.\+example.\+paint.\+Shapes.\+get (\begin{DoxyParamCaption}\item[{int}]{idx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+return shape at give index, if idx is out of range, return null 
+\begin{DoxyParams}{Parameters}
+{\em idx} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_adfb157edbbf55e8ee4f45ea6e328168b}\label{classorg_1_1example_1_1paint_1_1Shapes_adfb157edbbf55e8ee4f45ea6e328168b} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1example_1_1paint_1_1Shapes}{Shapes}} org.\+example.\+paint.\+Shapes.\+get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+instance of a singleton containing all shapes 
+\end{DoxyReturn}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_a0c4ead03f7f13869855a77f5dd7e5a5e}\label{classorg_1_1example_1_1paint_1_1Shapes_a0c4ead03f7f13869855a77f5dd7e5a5e} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!load@{load}}
+\index{load@{load}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Shapes.\+load (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+load the shapes from given file 
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & when loading is not possible, for example by corrupted file \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_a6548a80af00885b420de697f18e96775}\label{classorg_1_1example_1_1paint_1_1Shapes_a6548a80af00885b420de697f18e96775} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!save@{save}}
+\index{save@{save}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Shapes.\+save (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+save all the shapes to given file 
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & when saving is not possible, for example by read only filesystem \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classorg_1_1example_1_1paint_1_1Shapes_a85af78c2946f6f524a27b31c4a87ce8e}\label{classorg_1_1example_1_1paint_1_1Shapes_a85af78c2946f6f524a27b31c4a87ce8e} 
+\index{org.example.paint.Shapes@{org.example.paint.Shapes}!set@{set}}
+\index{set@{set}!org.example.paint.Shapes@{org.example.paint.Shapes}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily void org.\+example.\+paint.\+Shapes.\+set (\begin{DoxyParamCaption}\item[{int}]{idx,  }\item[{\mbox{\hyperlink{classorg_1_1example_1_1paint_1_1PolygonShape}{Polygon\+Shape}}}]{shape }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set shape at given index, if the idx is out of range, do nothing 
+\begin{DoxyParams}{Parameters}
+{\em idx} & \\
+\hline
+{\em shape} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/example/paint/Shapes.\+java\end{DoxyCompactItemize}
